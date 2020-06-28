@@ -33,13 +33,13 @@ This project was obtained from a list of challenges by Frontend Mentor.
 
 * Use JavaScript to validate the conditions of the email input field and displays the appropriate error/success message.
 
-* Hover states for all interactive elements of the page
+* Hover & focus states for the interactive elements of the page.
 
 * Keep the code as clean as possible.
 
-And don't forget the core of it all, _**Happy coding!🚀**_
+And don't forget the most important core of it all, _**Happy coding!🚀**_
 
-_P.S:_ _**Hover state features is not applicable on touchscreen devices, as it is only available through hovering over with a mouse cursor.**_
+_P.S:_ _**Hover state features is not applicable on touchscreen devices, as it is only available through hovering over with a cursor, such as a mouse device.**_
 
 ## :gear: Technical Components
 
