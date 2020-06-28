@@ -17,7 +17,7 @@ Thanks for checking out this project.
 
 This project was built on HTML5, CSS3 and ES6+ vanilla JavaScript.
 
-## Introduction
+##  :man_technologist: Introduction
 
 The Base Apparel Coming Soon Page is a project for practicing website layout, building responsive design across different devices and JS DOM manipulation. 
 
