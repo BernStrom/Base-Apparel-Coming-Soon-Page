@@ -15,7 +15,7 @@
 
 Thanks for checking out this project.
 
-This project was built on :HTML: HTML5, :css: CSS3 and :javascript: ES6+ vanilla JavaScript.
+This project was built on HTML5, CSS3 and ES6+ vanilla JavaScript.
 
 ## Introduction
 
