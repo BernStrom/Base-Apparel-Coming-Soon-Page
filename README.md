@@ -55,8 +55,8 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 
 ## :camera_flash: Screenshots of Responsive Design
 
-#### Phone (iPhone 11 Pro @ 375 x 812)
-![Page preview on iPhone 11 Pro](./screenshots/iPhone-11_(375x812).png)
+#### Phone (iPhone 11 @ 414 x 896)
+![Page preview on iPhone 11](./screenshots/iPhone-11_(414x896).png)
 <hr />
 
 #### Tablet w/ device frame (iPad Pro 12.9 @ 1024 x 1366) (Landscape View)
