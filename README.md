@@ -27,11 +27,11 @@ This project was obtained from a list of challenges by Frontend Mentor.
 
 * Use semantic HTML5 markup. *Managing code readability, accessibility and SEO optimization of the web page.*
 
-* Style with reusable CSS classes. 
+* Style with as much reusable CSS classes. 
 
 * Use responsive design to make the page compatible on screen across mobile and desktop devices.
 
-* Use JavaScript to validate the input fields of the sign-up form and display the appropiate error/success message.
+* Use JavaScript to validate the conditions of the email input field and display the appropriate error/success message.
 
 * Hover states for all interactive elements of the page
 
