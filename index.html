@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Base Apparel coming soon page</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="intro"> <!-- INTRO SECTION -->
+        <header>
+          <figure class="header-logo">
+            <img src="images/logo.svg" alt="Base Apparel Logo">
+          </figure>
+        </header>
+        
+        <figure class="image-container-mobile"> <!-- IMAGE FOR MOBILE SCREENS-->
+          <img src="images/hero-mobile.jpg" alt="Base Apparel female model" id="mobile-img">
+        </figure>
+        
+        <div class="intro-content">
+          <h1>We're<br> <span>coming<br> soon</span></h1>
+          <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    
+          <form action="/submit.php" method="POST">
+            <div>
+              <input class="email-field" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address">
+              <p class="error-message success-message"></p>
+            </div>
+            
+            <button id="submit-btn" type="submit">
+              <img src="images/icon-arrow.svg" alt="right arrow icon">
+            </button>
+          </form>
+        </div>
+      </section>
+      
+      <section class="image-container-desktop">
+        <figure> <!-- IMAGE FOR DESKTOP SCREENS -->
+          <img src="images/hero-desktop.jpg" alt="Base Apparel female model" id="desktop-img">
+        </figure>
+      </section>
+    </main>  
+  </body>
+</html>
