@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&amp;display=swap");
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    width: 100vw;
+    height: 100vh;
+    color: hsl(0, 36%, 70%);
+    font-family: "Josefin Sans", sans-serif;
+    background-image: url("images/bg-pattern-desktop.svg"), linear-gradient(135deg, hsla(0, 100%, 95%, .5), hsl(0, 0%, 98%));
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+main {
+    display: flex;
+}
+  
+/* INTRO SECTION & CONTENT */
+.header-logo {
+    margin: 0;
+}
+  
+.intro {
+    padding: 5% 10%;
+}
+  
+.intro-content {
+    margin-top: 150px;
+}
+  
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .3em;
+}
+  
+.intro p {
+    line-height: 1.7;
+}
+  
+.intro span {
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+}
+  
+/* EMAIL FORM SECTION */
+.intro form {
+    display: inline-flex;
+    margin-top: 5%;
+    position: relative;
+}
+  
+.email-field {
+    border: 0;
+    padding: 0 5%;
+    width: 400px;
+    height: 50px;
+    border: 1px solid hsla(0, 16%, 70%, .5);
+    border-radius: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    background: transparent;
+}
+  
+.email-field:focus {
+    outline: none;
+    box-shadow: 0 0 10px hsl(0, 93%, 68%);
+}
+  
+/* STYLES FOR ERROR & SUCCESS INPUT FIELD */
+.success {
+    border: 2px solid hsl(76, 78%, 45%);
+    background-color: hsla(76, 78%, 45%, .2);
+}
+  
+.failed {
+    border: 2px solid hsl(0, 93%, 68%);
+    background-color: hsla(354, 100%, 66%, .2);
+    background-image: url("images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+}
+  
+/* STYLES FOR ERROR & SUCCESS MESSAGE */
+.error-txt {
+    padding-left: 30px;
+    color: hsl(0, 93%, 68%);
+    font-size: 0.8rem;
+}
+  
+.success-txt {
+    padding-left: 30px;
+    color: hsl(76, 78%, 45%);
+    font-size: 0.8rem;
+}
+  
+#submit-btn {
+    width: 90px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    background-color: hsl(0, 74%, 74%);
+    outline: none;
+    transition: 400ms;
+    overflow: visible;
+    position: absolute;
+    right: -1em;
+    cursor: pointer;
+    transition: 0.6s;
+}
+  
+/* HOVER & ACTIVE STATES */
+#submit-btn:hover {
+    transform: translateX(20px);
+    background: linear-gradient(135deg, hsl(0, 100%, 96%), hsl(0, 80%, 86%));
+}
+  
+#submit-btn:active {
+    background: #EE8C8C;
+}
+  
+/* PLACEHOLDER SUPPORT ACROSS BROWSERS */
+::placeholder { /* Support for Chrome, Firefox, Opera, Safari 10.1+ */
+    color: hsla(0, 16%, 70%, .5);
+}
+  
+:-ms-input-placeholder { /* Support for Internet Explorer 10-11 */
+    color: hsla(0, 16%, 70%, .5);
+}
+  
+::-ms-input-placeholder { /* Support for Microsoft Edge */
+    color: hsla(0, 16%, 70%, .5);
+}
+  
+/* IMAGE SETTINGS FOR DESKTOP & MOBILE */
+.image-container-desktop figure {
+    margin: 0;
+}
+  
+#desktop-img {
+    height: 100vh;
+}
+  
+#mobile-img {
+    display: none;
+}
+
+/* Any devices, 1200px and below */
+@media only screen and (max-width: 1200px) {
+    body {
+      height: 100%;
+      background-size: cover;
+    }
+    
+    /* INTRO SECTION & CONTENT */
+    .intro {
+      padding: 0;
+    }
+    
+    .header-logo {
+      padding: 5% 8%;
+    }
+    
+    .intro-content {
+      padding: 5%;
+      margin: 30px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .intro h1 {
+      font-size: 3rem;
+      letter-spacing: .2em;
+    }
+     
+    .email-field {
+      width: 350px;
+      background-position: 78% 50%;
+    }
+    
+    .error-txt {
+      padding-left: 0;
+    }
+  
+    .success-txt {
+      padding-left: 0;
+    }
+    
+    #submit-btn {
+      width: 65px;
+      right: 0;
+    }
+    
+    /* IMAGE SETTINGS FOR DESKTOP & MOBILE */
+    .image-container-mobile {
+      margin: 3% 0;
+    }
+    
+    #desktop-img {
+      display: none;
+    }
+    
+    #mobile-img {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+    }
+}
+  
+/* Any devices, 500px and above */
+@media only screen and (min-width: 500px) {
+    .intro h1 {
+      font-size: 4rem;
+    }
+    
+    .email-field {
+      width: 400px;
+      background-position: 80% 50%;
+    }
+}
