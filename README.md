@@ -7,7 +7,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-## Base Apparel coming soon page
+## Base Apparel Coming Soon Page
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
@@ -29,7 +29,7 @@ This project was obtained from a list of challenges by Frontend Mentor.
 
 * Style with as much reusable CSS classes. 
 
-* Use responsive design to make the page compatible on screen across mobile and desktop devices.
+* Use responsive design to make the page compatible on screen across mobile to desktop devices.
 
 * Use JavaScript to validate the conditions of the email input field and displays the appropriate error/success message.
 
@@ -43,11 +43,11 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 
 ## :gear: Technical Components
 
-* Flexbox
+* Flexbox for page layout
 
 * Media queries used to build out the responsive design
 
-* Manipulation of the DOM by using JavaScript and Event Handlers.
+* Manipulation of the DOM by using JavaScript and Event Handlers
 
 ## :bookmark: Attribution
 
