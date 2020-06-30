@@ -23,7 +23,7 @@ The Base Apparel Coming Soon Page is a project for practicing website layout, bu
 
 This project was obtained from a list of challenges by Frontend Mentor.
 
-## Objectives of the project
+## :pushpin: Objectives of the project
 
 * Use semantic HTML5 markup. *Managing code readability, accessibility and SEO optimization of the web page.*
 
@@ -68,4 +68,4 @@ _P.S:_ _**Hover state features is not applicable on touchscreen devices, as it i
 <hr />
 
 ## :memo: License
-This project is licensed under the terms of the MIT license. For more information, please refer to the license [documentation](LICENSE).
+This project is licensed under the terms of the MIT license. For more information, please refer to the license [documentation](LICENSE.md).
